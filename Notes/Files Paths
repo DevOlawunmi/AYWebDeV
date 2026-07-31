@@ -1,0 +1,5 @@
+Absolute and Relative Paths
+
+Absolute file paths - location relative to the root(eg c:) of the computer 
+Relative file path - location relative to where we're writing our code
+
