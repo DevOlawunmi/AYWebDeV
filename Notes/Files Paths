@@ -1,5 +1,5 @@
-Absolute and Relative Paths
-
-Absolute file paths - location relative to the root(eg c:) of the computer 
-Relative file path - location relative to where we're writing our code
-
+var maxChars = 140;
+var sentence;
+var charsLeft  = maxChars - sentence.length();
+sentence = "I am a girl";
+console.log(sentence);
