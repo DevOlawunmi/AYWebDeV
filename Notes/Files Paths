@@ -1,5 +1,14 @@
-var maxChars = 140;
-var sentence;
-var charsLeft  = maxChars - sentence.length();
-sentence = "I am a girl";
-console.log(sentence);
+/*
+//what makes an API RESTful?
+1. Follows HTTP protocol
+2. Should have a standard format it responds with
+3. Clients and Servers are completely separate and able to message each other over a network. Each side can scale
+independently of each other
+4. Statelessness: Each req and response should contain all info needed to process request. No need to know what
+ happened previously. This allows the server to service many requests at once although efficiency can be reduced if many
+ requests are being received simultaneously, and we'll need to keep track of state
+ 5. Your REST API is resource-based and uses a unique URI/URL to locate specific resources. 
+
+
+
+*/
