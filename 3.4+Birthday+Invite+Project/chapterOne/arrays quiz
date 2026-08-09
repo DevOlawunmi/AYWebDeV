@@ -1,0 +1,12 @@
+
+var guestsList = ["Angela","Ella", "Venicia","Jenny","Charisa","Layo","Ola"];
+//console.log(guestsList[2]);
+//var name = guestsList[3];
+var nam = guestsList[Math.round(Math.random()*5)]
+if (guestsList.includes(nam))
+    {
+console.log(nam + " You're welcome")
+}
+else{
+    console.log(nam + " Not on list!")
+}
