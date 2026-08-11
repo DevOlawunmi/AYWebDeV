@@ -1,0 +1,27 @@
+//var numberOfBottles;
+
+
+/****
+ * TO DO
+ * 
+ * 1. Make more grammatically correct
+ * 2. Add more verses
+ * 
+ * [Verse 99]
+1 bottle of beer on the wall, 1 bottle of beer
+Take one down and pass it around, no more bottles of beer on the wall
+
+[Verse 100]
+No more bottles of beer on the wall, no more bottles of beer
+Go to the store and buy some more, 99 bottles of beer on the wall
+ */
+var currentNumber =99;
+function bottles(){
+while(currentNumber>0){
+    console.log(currentNumber +" bottles of beer on the wall," + currentNumber +" bottles of beer");
+    currentNumber--;
+    console.log("Take one down and pass it around," + currentNumber+ " bottles of beer on the wall");
+}
+
+}
+bottles();
