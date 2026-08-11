@@ -1,19 +1,13 @@
 
 var output = [];
 var count = 2;
-/*
+
 function fizzbuzz()
 {
    
    output.push(count); 
    count++;
    console.log(output)
-}*/
-function fizzbuzz()
-{
-   output.push(count); 
-   count++;
-   console.log(output);
 }
 
 fizzbuzz();
